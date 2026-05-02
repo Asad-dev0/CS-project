@@ -1,0 +1,36 @@
+{
+  "type": "module",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Car Rental services",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fozan-webdev/car_rentalservice_project.git"
+  },
+  "author": "gcb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fozan-webdev/car_rentalservice_project/issues"
+  },
+  "homepage": "https://github.com/Fozan-webdev/car_rentalservice_project#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.1.1",
+    "nodemon": "^3.1.14",
+    "stripe": "^22.0.0",
+    "validator": "^13.15.35"
+  }
+}
